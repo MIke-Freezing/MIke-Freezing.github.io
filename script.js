@@ -10,6 +10,7 @@ if($(window).width() < 721){
 	$(".owl-carousel").owlCarousel({
 		items:1,
 		loop: true,
+		dots: false
 	});
 }
 
