@@ -1,12 +1,12 @@
 $(document).ready(function(){
   $(".owl-carousel").owlCarousel({
-  	items:3,
+  	items:1,
   	loop: false,
   });
 });
 
 
-if($(window).width() < 421){
+if($(window).width() < 721){
 	$(".owl-carousel").owlCarousel({
 		items:1,
 		loop: true,
