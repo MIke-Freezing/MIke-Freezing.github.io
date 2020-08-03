@@ -430,7 +430,7 @@ footer{
 }
 
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 361px){
 	body{
 		width: 100%;
 	}
@@ -448,6 +448,7 @@ footer{
 		width: 100%;
 		display: flex;
 		flex-direction: column;
+		height: 690px;
 	}
 
 	.navbar{
@@ -471,15 +472,18 @@ footer{
 		display: block;
 		max-width: 100%;
 	}
+	.about>h2{
+	font-size: 20px;
+	}
 
 	.about>h1{
 		width: 90%;
-		font-size: 35px;
+		font-size: 24px;
 	}
 
 	.about>p{
 		width: 100%;
-		font-size: 18px;
+		font-size: 12px;
 		overflow-y: hidden;
 		height: 170px;
 	}
@@ -488,8 +492,16 @@ footer{
 		width: 550px;
 	}
 
+	.demand>.email{
+		width: 145px;
+	}
+
+	.demand>.order{
+		width: 90px;
+	}
+
 	.description{
-		direction: flex;
+		display: flex;
 		flex-direction: column;
 		width: 100%;
 		margin-top: 50px;
@@ -526,10 +538,11 @@ footer{
 
 	.descrleft>h2{
 	margin-bottom: 70px;
+	margin-top: 40px;
 	}
 
 	.descrleft>h1{
-		font-size: 28px;
+		font-size: 24px;
 		margin-bottom: 50px;
 	}
 
@@ -542,15 +555,15 @@ footer{
 		margin-top: 0;
 		padding: 0;
 		text-align: left;
-		font-size: 18px;
+		font-size: 16px;
 		margin-bottom: 20px; 
 	}
 
 	.numbers{
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		grid-row-gap: 60px;
-		grid-column-gap: 20px;
+		grid-row-gap: 40px;
+		grid-column-gap: 10px;
 		width: 90%;
 		margin-top: 50px;
 	}
@@ -583,7 +596,7 @@ footer{
 	}
 
 	.revborder{
-		margin-left: 300px;
+		margin-left: 90px;
 		width: 150px;
 		margin-top: 30px;
 	}
@@ -595,30 +608,30 @@ footer{
 	}
 
 	.name{
-		width: 500px;
+		width: 285px;
 		margin-bottom: 60px;
 	}
 
 	.phonenumber{
-		width: 500px;
+		width: 285px;
 		margin-bottom: 60px;
 	}
 
 	.mail{
-		width: 500px;
+		width: 285px;
 		margin-bottom: 60px;
 	}
 
 	.name>input{
-		width: 450px;
+		width: 250px;
 	}
 
 	.phonenumber>input{
-		width: 450px;
+		width: 250px;
 	}
 
 	.mail>input{
-		width: 450px;
+		width: 250px;
 	}
 
 }
