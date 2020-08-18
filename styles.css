@@ -504,7 +504,7 @@ footer{
 		display: flex;
 		flex-direction: column;
 		width: 100%;
-		margin-top: 50px;
+		margin-top: 25px;
 	}
 
 	#photos{
@@ -537,7 +537,7 @@ footer{
 	}
 
 	.descrleft>h2{
-	margin-bottom: 70px;
+	margin-bottom: 45px;
 	margin-top: 40px;
 	}
 
